@@ -2,7 +2,7 @@ const kategoriler = [
     {
         limit: 18.5,
         isim: "Zayıf",
-        renk: "warning",
+        renk: "info",
         diyet: [
             "Kalori alımını artırın (günde +300/500 kalori)",
             "Kuruyemiş, avokado gibi sağlıklı yağlar tüketin",
@@ -70,7 +70,7 @@ function Result({result}) {
                 </ul>
 
                 <div className="d-grid">
-                    <Link to="/" className="btn btn-outline-secondary">
+                    <Link to="/" className={`btn btn-outline-${kategori.renk}`}>
                         Yeniden Hesapla
                     </Link>
                 </div>

@@ -31,7 +31,7 @@ function Calculate({setResult}) {
                 <label className="form-label fw-semibold">Boy (cm)</label>
                 <input
                     type="number"
-                    className="form-control form-control-lg"
+                    className="form-control form-control-lg border-secondary"
                     placeholder="Örn: 170"
                     value={size}
                     onChange={(e) => setSize(e.target.value)}
@@ -42,7 +42,7 @@ function Calculate({setResult}) {
                 <label className="form-label fw-semibold">Kilo (kg)</label>
                 <input
                     type="number"
-                    className="form-control form-control-lg"
+                    className="form-control form-control-lg border-secondary"
                     placeholder="Örn: 70"
                     value={weight}
                     onChange={(e) => setWeight(e.target.value)}

@@ -1,4 +1,4 @@
-🔗 **Canlı Önizleme:** [BURAYA_NETLIFY_LINKINI_YAPISTIR](https://BURAYA_NETLIFY_LINKINI_YAPISTIR.netlify.app)
+🔗 **Canlı Önizleme:** [https://calm-narwhal-30db64.netlify.app](https://calm-narwhal-30db64.netlify.app)
 
 # ⚖️ BMI (Vücut Kitle Endeksi) Hesaplayıcı
 
